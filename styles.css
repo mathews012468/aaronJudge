@@ -1,0 +1,45 @@
+:root {
+  --yankees-blue: rgb(21,36,68);
+  --yankees-red: rgb(212,72,72);
+  --yankees-white: rgb(250,250,250);
+}
+
+@font-face {
+  font-family: "proxima nova bold";
+  src: url("https://www.mlbstatic.com/mlb.com/fonts/proxima-nova-bold.woff2");
+}
+
+@font-face {
+  font-family: "proxima nova regular";
+  src: url("https://www.mlbstatic.com/mlb.com/fonts/proxima-nova-regular.woff2");
+}
+
+#image {
+  max-width: 100%;
+  max-height: auto;
+}
+
+#img-div {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  font-family: "proxima nova bold";
+  background-color: var(--yankees-blue);
+  color: var(--yankees-white);
+}
+
+body {
+  font-family: "proxima nova regular";
+  background-color: var(--yankees-white);
+  color: var(--yankees-blue);
+  border-style: solid;
+  border-width: 10px;
+}
+
+main {
+  color: rgb(21,36,68);
+}
